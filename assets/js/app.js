@@ -16,7 +16,7 @@ xhr.onload = function () {
         let result = ``
 
         data.forEach(comment => {
-            result += `<div class="col-4 mt-4" id="${comment.id}">
+            result += `<div class="col-md-4 mt-4" id="${comment.id}">
                 <div class="card h-100">
                     <div class="card-header">
                     <h4><span class="text-success">${comment.postId}.</span> ${comment.name}</h4>
